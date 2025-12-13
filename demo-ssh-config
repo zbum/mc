@@ -1,0 +1,34 @@
+# Production Servers
+Host prod-web-01
+    HostName 10.xxx.xxx.1
+    User admin
+    Port 22
+
+Host prod-web-02
+    HostName 10.xxx.xxx.2
+    User admin
+    Port 22
+
+Host prod-api
+    HostName 10.xxx.xxx.10
+    User deploy
+    Port 2222
+
+# Staging Servers
+Host staging-web
+    HostName staging.example.com
+    User developer
+
+Host staging-api
+    HostName staging-api.example.com
+    User developer
+
+# Development
+Host dev-local
+    HostName 192.168.xxx.100
+    User dev
+    Port 22
+
+Host dev-docker
+    HostName 192.168.xxx.101
+    User docker
