@@ -2,6 +2,10 @@
 
 A CLI tool to quickly select and connect to SSH hosts from `~/.ssh/config` using a fuzzy finder.
 
+## Demo
+
+![demo](./demo.gif)
+
 ## Installation
 
 ```bash

@@ -143,6 +143,10 @@ func expandPath(path string) string {
 }
 
 func getSSHConfigPath() string {
+	// MC_SSH_CONFIG 환경 변수가 있으면 사용
+	if configPath := os.Getenv("MC_SSH_CONFIG"); configPath != "" {
+		return configPath
+	}
 	home, err := os.UserHomeDir()
 	if err != nil {
 		return ""

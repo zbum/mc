@@ -2,6 +2,10 @@
 
 `~/.ssh/config`에 등록된 호스트를 fuzzy finder로 빠르게 선택하여 SSH 접속할 수 있는 CLI 도구입니다.
 
+## Demo
+
+![demo](./demo.gif)
+
 ## 설치
 
 ```bash
