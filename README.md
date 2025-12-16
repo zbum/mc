@@ -8,6 +8,15 @@
 
 ## 설치
 
+### macOS (Homebrew)
+
+```bash
+brew tap zbum/mc
+brew install zbum/mc/mc
+```
+
+### 소스에서 빌드
+
 ```bash
 go install
 ```
