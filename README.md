@@ -11,8 +11,8 @@
 ### macOS (Homebrew)
 
 ```bash
-brew tap zbum/mc
-brew install zbum/mc/mc
+brew tap zbum/tap
+brew install zbum/tap/mc
 ```
 
 ### 소스에서 빌드
