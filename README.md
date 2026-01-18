@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.svg" alt="mc - SSH Connection Manager" width="800">
+</p>
+
 # mc - SSH Connection Manager
 
 `~/.ssh/config`에 등록된 호스트를 fuzzy finder로 빠르게 선택하여 SSH 접속할 수 있는 CLI 도구입니다.
